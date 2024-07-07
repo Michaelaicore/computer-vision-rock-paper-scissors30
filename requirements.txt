@@ -1,2 +1,5 @@
 numpy==1.23.5
 opencv-python==4.5.2.54
+h5py==2.10.0
+keras==2.10.0
+tensorflow==2.10.0
