@@ -23,28 +23,34 @@ The player who shows the first option that beats the other player's option wins.
     ```
 
 ## Usage
-1. Run the Python script:
+1. Go to [Teachable-Machine](https://teachablemachine.withgoogle.com/) to creat a model with four classes, Nothing, Rock, Paper and Scissors. Each class is trained with images of yourself showing each option to the camera. The more images you train with, the more accurate the model will be.
+Download the model from the "Tensorflow" tab in Teachable-Machine. The model should be named keras_model.h5 and the text file containing the labels should be named labels.txt to replace those two files in converted_keras folder.
+
+2. Run the Python script:
     ```bash
-    python 
+    python main/camera_rps.py
     ```
-2. Follow the instructions on the screen to play the word guessing game.
+3. Follow the instructions on the screen to play the word guessing game.
 
 ## File Structure
 ```
+├── converted_keras
+│   ├── keras_model.h5
+│   └── labels.txt
 ├── __init__.py
 ├── main
 │   ├── camera_rps.py
-│   ├── converted_keras
-│   │   ├── keras_model.h5
-│   │   └── labels.txt
 │   ├── __init__.py
 │   ├── manual_rps.py
-│   └── requirements.txt
+│   └── __pycache__
+│       ├── camera_rps.cpython-38.pyc
+│       └── __init__.cpython-38.pyc
 ├── README.md
+├── requirements.txt
 └── test
     ├── __init__.py
     ├── __pycache__
-    │   └── test_manual_rps.cpython-310.pyc
+    ├── test_camera_rps.py
     └── test_manual_rps.py
 ```
 
