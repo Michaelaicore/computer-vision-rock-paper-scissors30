@@ -41,15 +41,11 @@ Download the model from the "Tensorflow" tab in Teachable-Machine. The model sho
 ├── main
 │   ├── camera_rps.py
 │   ├── __init__.py
-│   ├── manual_rps.py
-│   └── __pycache__
-│       ├── camera_rps.cpython-38.pyc
-│       └── __init__.cpython-38.pyc
+│   └── manual_rps.py
 ├── README.md
 ├── requirements.txt
 └── test
     ├── __init__.py
-    ├── __pycache__
     ├── test_camera_rps.py
     └── test_manual_rps.py
 ```
