@@ -45,7 +45,8 @@ Download the model from the "Tensorflow" tab in Teachable-Machine. The model sho
     python main/camera_rps.py
     ```
 
-4. Follow the instructions on the screen to play the word guessing game.
+4. Follow the instructions on the screen to play the Rock-Paper-Scissors games with computer.
+Enjoy!
 
 ## File Structure
 
