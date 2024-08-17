@@ -10,10 +10,9 @@ Classes:
     RockPaperScissorsGame: A class to represent and play the Rock-Paper-Scissors game.
 """
 
-
 import time
-import numpy as np
 
+import numpy as np
 import cv2
 from keras.models import load_model
 
