@@ -12,8 +12,8 @@ Classes:
 
 import time
 
-import numpy as np
 import cv2
+import numpy as np
 from keras.models import load_model
 
 
